@@ -1,45 +1,39 @@
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "./App.css";
+import geotags from "./geotags_small.json";
+import FileUploader from "./FileUploader";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZ3JlZ2tvemxvdiIsImEiOiJjbHV1eHJ0eTQwZjIwMmpuMXZhMm45MDkwIn0.YuoiWCGT5tSV48-IG-1wgg";
 
 function App() {
+  const [data, setData] = useState(
+    geotags.events.map(item => [
+      item.positions[0].longitude,
+      item.positions[0].latitude,
+    ]),
+  );
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-77.0214);
-  const [lat, setLat] = useState(38.897);
-  const [zoom, setZoom] = useState(12);
+  const [lng, setLng] = useState(9.6348);
+  const [lat, setLat] = useState(50.1758);
+  const [zoom, setZoom] = useState(6.21);
 
-  const geojson = {
-    type: "FeatureCollection",
-    features: [
-      {
-        type: "Feature",
-        geometry: {
-          type: "LineString",
-          coordinates: [
-            [-77.0366048812866, 38.89873175227713],
-            [-77.03364372253417, 38.89876515143842],
-            [-77.03364372253417, 38.89549195896866],
-            [-77.02982425689697, 38.89549195896866],
-            [-77.02400922775269, 38.89387200688839],
-            [-77.01519012451172, 38.891416957534204],
-            [-77.01521158218382, 38.892068305429156],
-            [-77.00813055038452, 38.892051604275686],
-            [-77.00832366943358, 38.89143365883688],
-            [-77.00818419456482, 38.89082405874451],
-            [-77.00815200805664, 38.88989712255097],
-          ],
-        },
-        properties: {},
-      },
-    ],
+  const handleFilter = () => {
+    const filteredItems = geotags.events.filter(
+      item => item.positions[0].latitude === 49.58508,
+    );
+    const newCoordinates = filteredItems.map(item => [
+      item.positions[0].longitude,
+      item.positions[0].latitude,
+    ]);
+    console.log("🚀 ~ newCoordinates:", newCoordinates);
+    setData(newCoordinates);
   };
 
   useEffect(() => {
-    if (map.current) return; // initialize map only once
+    if (map.current) return; // Initialize map only once
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/light-v11",
@@ -50,7 +44,19 @@ function App() {
     map.current.on("load", () => {
       map.current.addSource("LineString", {
         type: "geojson",
-        data: geojson,
+        data: {
+          type: "FeatureCollection",
+          features: [
+            {
+              type: "Feature",
+              geometry: {
+                type: "LineString",
+                coordinates: data,
+              },
+              properties: {},
+            },
+          ],
+        },
       });
       map.current.addLayer({
         id: "LineString",
@@ -74,21 +80,30 @@ function App() {
     });
   }, []);
 
-  // const zoomToBounds = () => {
-  //   const coordinates = geojson.features[0].geometry.coordinates;
-  //   const bounds = coordinates.reduce((bounds, coord) => {
-  //     return bounds.extend(coord);
-  //   }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
-
-  //   map.current.fitBounds(bounds, {
-  //     padding: 20,
-  //   });
-  // };
+  useEffect(() => {
+    if (map.current && map.current.isStyleLoaded()) {
+      map.current.getSource("LineString").setData({
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            geometry: {
+              type: "LineString",
+              coordinates: data,
+            },
+            properties: {},
+          },
+        ],
+      });
+    }
+  }, [data]);
 
   return (
     <div>
+      <FileUploader />
       <div className="sidebar">
         Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
+        <button onClick={handleFilter}>Filter</button>
       </div>
       <div ref={mapContainer} className="map-container" />
     </div>

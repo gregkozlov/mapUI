@@ -1,0 +1,1018 @@
+{
+  "events": [
+    {
+      "eventId": "11619633388",
+      "timestamp": "2024-02-09T13:09:54.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.10005,
+          "longitude": 6.80149,
+          "timestamp": "2024-02-09T13:09:54.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 89, "unit": "km/h" },
+              "heading": { "value": 347, "unit": "deg" },
+              "altitude": { "value": 90.81, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Dormagen (Nievenheim)",
+            "street": "A 57",
+            "streetNumber": null,
+            "postalCode": "41542"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206610.41, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50320.7, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 89, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619680964",
+      "timestamp": "2024-02-09T13:17:37.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.1711,
+          "longitude": 6.72995,
+          "timestamp": "2024-02-09T13:17:37.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 26, "unit": "km/h" },
+              "heading": { "value": 291, "unit": "deg" },
+              "altitude": { "value": 93.28, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Neuss (Grimlinghausen)",
+            "street": "A 57",
+            "streetNumber": null,
+            "postalCode": "41468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206620.3, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50322.8, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 26, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619711904",
+      "timestamp": "2024-02-09T13:23:13.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.17972,
+          "longitude": 6.6717,
+          "timestamp": "2024-02-09T13:23:13.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 88, "unit": "km/h" },
+              "heading": { "value": 290, "unit": "deg" },
+              "altitude": { "value": 93.77, "unit": "m" },
+              "accuracy": { "value": 4, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Neuss (Stadionviertel)",
+            "street": "A 57",
+            "streetNumber": null,
+            "postalCode": "41464"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206624.635, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50324.7, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 88, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619758106",
+      "timestamp": "2024-02-09T13:30:57.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.23458,
+          "longitude": 6.70445,
+          "timestamp": "2024-02-09T13:30:57.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 75, "unit": "km/h" },
+              "heading": { "value": 106, "unit": "deg" },
+              "altitude": { "value": 94.13, "unit": "m" },
+              "accuracy": { "value": 6, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 4)",
+            "street": "A 52",
+            "streetNumber": null,
+            "postalCode": "40549"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206635.595, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50327.1, "unit": "l" },
+          "level": { "value": 62.4, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 75, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619793782",
+      "timestamp": "2024-02-09T13:37:36.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.2533,
+          "longitude": 6.79113,
+          "timestamp": "2024-02-09T13:37:36.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 41, "unit": "km/h" },
+              "heading": { "value": 105, "unit": "deg" },
+              "altitude": { "value": 90.96, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Heinrich-Ehrhardt-Straße (B 1;B 7;B 8)",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206642.58, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50328.9, "unit": "l" },
+          "level": { "value": 62.4, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 41, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619794653",
+      "timestamp": "2024-02-09T13:37:46.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25313,
+          "longitude": 6.792,
+          "timestamp": "2024-02-09T13:37:45.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 13, "unit": "km/h" },
+              "heading": { "value": 141, "unit": "deg" },
+              "altitude": { "value": 89.5, "unit": "m" },
+              "accuracy": { "value": 6, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Toulouser Allee",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206642.665, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50328.9, "unit": "l" },
+          "level": { "value": 62.4, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 13, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619829289",
+      "timestamp": "2024-02-09T13:43:55.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25266,
+          "longitude": 6.79148,
+          "timestamp": "2024-02-09T13:43:55.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 335, "unit": "deg" },
+              "altitude": { "value": 89.28, "unit": "m" },
+              "accuracy": { "value": 4, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Toulouser Allee",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206642.945, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329, "unit": "l" },
+          "level": { "value": 62.8, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619833457",
+      "timestamp": "2024-02-09T13:44:45.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25266,
+          "longitude": 6.79154,
+          "timestamp": "2024-02-09T13:44:45.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 335, "unit": "deg" },
+              "altitude": { "value": 89.65, "unit": "m" },
+              "accuracy": { "value": 4, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Toulouser Allee",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206642.945, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329, "unit": "l" },
+          "level": { "value": 62.8, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619946356",
+      "timestamp": "2024-02-09T14:04:43.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25428,
+          "longitude": 6.79151,
+          "timestamp": "2024-02-09T14:04:43.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 21, "unit": "km/h" },
+              "heading": { "value": 329, "unit": "deg" },
+              "altitude": { "value": 86.74, "unit": "m" },
+              "accuracy": { "value": 6, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Toulouser Allee",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.14, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.2, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 21, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619946783",
+      "timestamp": "2024-02-09T14:04:46.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25445,
+          "longitude": 6.79139,
+          "timestamp": "2024-02-09T14:04:46.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 24, "unit": "km/h" },
+              "heading": { "value": 357, "unit": "deg" },
+              "altitude": { "value": 86.39, "unit": "m" },
+              "accuracy": { "value": 6, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Toulouser Allee",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.155, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.2, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 24, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11619986835",
+      "timestamp": "2024-02-09T14:12:14.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25871,
+          "longitude": 6.78642,
+          "timestamp": "2024-02-09T14:11:51.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 17, "unit": "deg" },
+              "altitude": { "value": 87.37, "unit": "m" },
+              "accuracy": { "value": 24, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620040148",
+      "timestamp": "2024-02-09T14:21:53.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25906,
+          "longitude": 6.78626,
+          "timestamp": "2024-02-09T14:21:53.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 228, "unit": "deg" },
+              "altitude": { "value": 86.69, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620040172",
+      "timestamp": "2024-02-09T14:21:54.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25906,
+          "longitude": 6.78626,
+          "timestamp": "2024-02-09T14:21:53.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 228, "unit": "deg" },
+              "altitude": { "value": 86.69, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620040678",
+      "timestamp": "2024-02-09T14:21:59.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25905,
+          "longitude": 6.78626,
+          "timestamp": "2024-02-09T14:21:56.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 233, "unit": "deg" },
+              "altitude": { "value": 86.73, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620041316",
+      "timestamp": "2024-02-09T14:22:07.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25904,
+          "longitude": 6.78624,
+          "timestamp": "2024-02-09T14:22:04.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 225, "unit": "deg" },
+              "altitude": { "value": 87.01, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620041326",
+      "timestamp": "2024-02-09T14:22:07.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25904,
+          "longitude": 6.78624,
+          "timestamp": "2024-02-09T14:22:04.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 225, "unit": "deg" },
+              "altitude": { "value": 87.01, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620046808",
+      "timestamp": "2024-02-09T14:23:12.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25904,
+          "longitude": 6.78624,
+          "timestamp": "2024-02-09T14:22:04.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 225, "unit": "deg" },
+              "altitude": { "value": 87.01, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "chached"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620046816",
+      "timestamp": "2024-02-09T14:23:12.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25904,
+          "longitude": 6.78624,
+          "timestamp": "2024-02-09T14:22:04.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 225, "unit": "deg" },
+              "altitude": { "value": 87.01, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "chached"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.81, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.6, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620052514",
+      "timestamp": "2024-02-09T14:24:20.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25902,
+          "longitude": 6.78558,
+          "timestamp": "2024-02-09T14:24:20.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 20, "unit": "km/h" },
+              "heading": { "value": 40, "unit": "deg" },
+              "altitude": { "value": 89.91, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.9, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.7, "unit": "l" },
+          "level": { "value": 64, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 20, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620052561",
+      "timestamp": "2024-02-09T14:24:21.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25906,
+          "longitude": 6.78563,
+          "timestamp": "2024-02-09T14:24:21.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 20, "unit": "km/h" },
+              "heading": { "value": 20, "unit": "deg" },
+              "altitude": { "value": 90.03, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.9, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.7, "unit": "l" },
+          "level": { "value": 64, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 20, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620053601",
+      "timestamp": "2024-02-09T14:24:34.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25976,
+          "longitude": 6.7864,
+          "timestamp": "2024-02-09T14:24:34.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 18, "unit": "km/h" },
+              "heading": { "value": 24, "unit": "deg" },
+              "altitude": { "value": 90.15, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Rather Straße",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206643.985, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.7, "unit": "l" },
+          "level": { "value": 63.6, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 18, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620090520",
+      "timestamp": "2024-02-09T14:31:06.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25809,
+          "longitude": 6.78822,
+          "timestamp": "2024-02-09T14:31:06.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 168, "unit": "deg" },
+              "altitude": { "value": 92.92, "unit": "m" },
+              "accuracy": { "value": 6, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Rather Straße",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206644.585, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.9, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620097653",
+      "timestamp": "2024-02-09T14:32:27.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25804,
+          "longitude": 6.78818,
+          "timestamp": "2024-02-09T14:32:26.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 110, "unit": "deg" },
+              "altitude": { "value": 90.71, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Rather Straße",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206644.585, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.9, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620097676",
+      "timestamp": "2024-02-09T14:32:27.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25804,
+          "longitude": 6.78818,
+          "timestamp": "2024-02-09T14:32:27.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 0, "unit": "km/h" },
+              "heading": { "value": 110, "unit": "deg" },
+              "altitude": { "value": 90.61, "unit": "m" },
+              "accuracy": { "value": 8, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Rather Straße",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206644.585, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.9, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 0, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620347350",
+      "timestamp": "2024-02-09T15:24:34.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25825,
+          "longitude": 6.78758,
+          "timestamp": "2024-02-09T15:24:34.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 20, "unit": "km/h" },
+              "heading": { "value": 292, "unit": "deg" },
+              "altitude": { "value": 90.49, "unit": "m" },
+              "accuracy": { "value": 6, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Rather Straße",
+            "streetNumber": null,
+            "postalCode": "40476"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206644.615, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50329.9, "unit": "l" },
+          "level": { "value": 63.2, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 20, "unit": "km" }
+      }
+    },
+    {
+      "eventId": "11620348586",
+      "timestamp": "2024-02-09T15:24:56.000000Z",
+      "customerId": "191",
+      "objectId": "051",
+      "positions": [
+        {
+          "latitude": 51.25873,
+          "longitude": 6.78576,
+          "timestamp": "2024-02-09T15:24:56.000000Z",
+          "source": {
+            "type": "gps",
+            "data": {
+              "speed": { "value": 14, "unit": "km/h" },
+              "heading": { "value": 312, "unit": "deg" },
+              "altitude": { "value": 88.87, "unit": "m" },
+              "accuracy": { "value": 12, "unit": "m" },
+              "fix": "realtime"
+            }
+          },
+          "address": {
+            "country": "DE",
+            "region": "NW",
+            "locality": "Düsseldorf (Stadtbezirk 1)",
+            "street": "Hugo-Viehoff-Straße",
+            "streetNumber": null,
+            "postalCode": "40468"
+          }
+        }
+      ],
+      "fms": {
+        "mileage": { "value": 206644.77, "unit": "km" },
+        "fuel": {
+          "consumptionOverLifetime": { "value": 50330, "unit": "l" },
+          "level": { "value": 63.6, "unit": "%" }
+        },
+        "nextServiceStop": { "value": 14, "unit": "km" }
+      }
+    }
+  ]
+}
