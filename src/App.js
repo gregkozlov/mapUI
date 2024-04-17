@@ -1,19 +1,22 @@
 import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "./App.css";
-import geotags from "./geotags_small.json";
+import geotags from "./geotagsJSON/geotags_small.json";
 import FileUploader from "./FileUploader";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZ3JlZ2tvemxvdiIsImEiOiJjbHV1eHJ0eTQwZjIwMmpuMXZhMm45MDkwIn0.YuoiWCGT5tSV48-IG-1wgg";
 
 function App() {
+  console.log("🚀 ~ geotags:", geotags);
+
   const [data, setData] = useState(
     geotags.events.map(item => [
       item.positions[0].longitude,
       item.positions[0].latitude,
     ]),
   );
+  // console.log("🚀 ~ data:", data);
   const mapContainer = useRef(null);
   const map = useRef(null);
   const [lng, setLng] = useState(9.6348);
@@ -77,6 +80,10 @@ function App() {
       setLng(map.current.getCenter().lng.toFixed(4));
       setLat(map.current.getCenter().lat.toFixed(4));
       setZoom(map.current.getZoom().toFixed(2));
+    });
+
+    map.current.on("load", function () {
+      console.log(map.current.getStyle());
     });
   }, []);
 
